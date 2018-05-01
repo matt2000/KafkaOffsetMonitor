@@ -49,5 +49,5 @@ object KafkaUtilsBuild extends Build {
       "org.reflections" % "reflections" % "0.9.10"),
     resolvers ++= Seq(
       "java m2" at "http://download.java.net/maven/2",
-      "twitter repo" at "http://maven.twttr.com"))
+      "twitter repo" at "https://maven.twttr.com"))
 }
